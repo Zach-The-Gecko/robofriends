@@ -36,7 +36,7 @@ class App extends Component {
 			<div className='tc'>
 				<h1 className='f1'>RoboFriends</h1>
 				<SearchBox searchChange={this.onSearchChange}/>
-				<Scroll height='500px'>
+				<Scroll height='67vh'>
 					<ErrorBoundry>
 						<CardList robots={filteredRobots}/>
 					</ErrorBoundry>
